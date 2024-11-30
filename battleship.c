@@ -84,9 +84,9 @@ int main() {
         if (row >= 0 && row < ROWS && colIndex >= 0 && colIndex < COLS) {
             result = attack(opponentGrid, row, colIndex);
             if (result == 1) {
-                printf("Hit!\n");
+                printf("======HIT======!\n");
             } else if (result == 0) {
-                printf("Miss!\n");
+                printf("======MISS======\n");
             } else {
                 printf("You already attacked this location. Try again.\n");
                 continue;
